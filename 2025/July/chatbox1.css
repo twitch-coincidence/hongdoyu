@@ -9,7 +9,7 @@
 }
 
 .icon_badge.streamer {
-	background: url(https://raw.githubusercontent.com/twitch-coincidence/hongdoyu/refs/heads/main/2025/July/img/chat_streamer.webp);
+	background: url("https://raw.githubusercontent.com/twitch-coincidence/hongdoyu/refs/heads/main/2025/July/img/chat_streamer.webp") 50% 50% no-repeat !important;
   	background-size: 28px 28px !important;
 }
 

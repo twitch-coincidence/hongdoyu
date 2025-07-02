@@ -1,1 +1,45 @@
+.chat_box .inner_box {
+	display: flex;
+  	justify-content: center;
+}
 
+.icon_badge {
+	width: 28px !important;
+  	height: 28px !important;
+}
+
+.icon_badge.streamer {
+	background: url(https://raw.githubusercontent.com/twitch-coincidence/hongdoyu/refs/heads/main/2025/July/img/chat_streamer.webp);
+  	background-size: 28px 28px !important;
+}
+
+.icon_badge.manager {
+  	display: none;
+}
+
+.icon_badge.top {
+	background: url("https://raw.githubusercontent.com/twitch-coincidence/hongdoyu/refs/heads/main/2025/July/img/chat_top.webp") 50% 50% no-repeat !important;
+	background-size: 28px 28px !important;
+}
+
+.icon_badge.fan {
+	background: url("https://raw.githubusercontent.com/twitch-coincidence/hongdoyu/refs/heads/main/2025/July/img/chat_fan.webp") 50% 50% no-repeat !important;
+	background-size: 28px 28px !important;
+}
+
+.icon_badge.subscribe {
+	background: url("https://raw.githubusercontent.com/twitch-coincidence/hongdoyu/refs/heads/main/2025/July/img/chat_subscribe.webp") 50% 50% no-repeat !important;
+	background-size: 28px 28px !important;
+}
+
+.chat_box .nick {
+	display: none;
+}
+
+.chat_box .text::before {
+	content: "\"";
+}
+
+.chat_box .text::after {
+	content: "\"";
+}
